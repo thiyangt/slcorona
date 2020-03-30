@@ -1,9 +1,9 @@
 Package: slcorona
-Title: What the Package Does (One Line, Title Case)
+Title: covid-19 cases in Sri Lanka
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Thiyanga",
+           family = "",
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
