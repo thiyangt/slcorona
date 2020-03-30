@@ -7,12 +7,12 @@ Authors@R:
            role = c("aut", "cre"),
            email = "ttalagala@sjp.ac.lk",
            comment = c(ORCID = "0000-0002-0656-9789"))
-    person(given = "Priyanga D",
+    person(given = "Priyanga Dilini",
            family = "Talagala",
            role = c("aut", "cre"),
            email = "pritalagala@gmail.com",
-           comment = c(ORCID = "0000-0002-0656-9789"))
-Description: What the package does (one paragraph).
+           comment = c(ORCID = "0000-0003-2870-7449"))
+Description: Provides daily summary of the confirmed Coronavirus (COVID-19) cases in Sri Lanka.
 License: GPL-3
 Depends:
     R (>= 3.6.0)

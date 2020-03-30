@@ -7,12 +7,12 @@
 \format{
 A tsibble object with 2 variables
 \describe{
-\item{Date}{NDate}
+\item{Date}{Date}
 \item{New_Patients}{Number of patients confirmed on the corresponding day}
 }
 }
 \source{
-
+Corona Virus- Situation Report – Epidemiology Unit, Ministry of Health
 }
 \usage{
 newpatients
@@ -23,6 +23,6 @@ New corona patients count in Sri Lanka
 \examples{
 data(newpatients)
 head(newpatients)
-summary(patients)
+summary(newpatients)
 }
 \keyword{datasets}
