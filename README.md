@@ -35,3 +35,8 @@ Visualization
     ggplot(newpatients, aes(y=New_Patients, x=Date)) + geom_bar(stat="identity", fill="#1b9e77")
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+
+    library(ggplot2)
+    ggplot(newpatients, aes(y=cumsum(New_Patients), x=Date)) + geom_line() + ylab("Cumulative count")
+
+![](README_files/figure-markdown_strict/unnamed-chunk-4-1.png)
