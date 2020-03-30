@@ -3,11 +3,26 @@ Title: covid-19 cases in Sri Lanka
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Thiyanga",
-           family = "",
+           family = "Talagala",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "ttalagala@sjp.ac.lk",
+           comment = c(ORCID = "0000-0002-0656-9789"))
+    person(given = "Priyanga D",
+           family = "Talagala",
+           role = c("aut", "cre"),
+           email = "pritalagala@gmail.com",
+           comment = c(ORCID = "0000-0002-0656-9789"))
 Description: What the package does (one paragraph).
-License: What license it uses
+License: GPL-3
+Depends:
+    R (>= 3.6.0)
+Imports:
+        tsibble,
+        forecast,
+        tidyverse,
+        dplyr,
+        magrittr,
+        lubridate
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.0
