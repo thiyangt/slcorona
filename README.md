@@ -27,3 +27,11 @@ Example
     ## 4 2020-01-30            0
     ## 5 2020-01-31            0
     ## 6 2020-02-01            0
+
+Visualization
+-------------
+
+    library(ggplot2)
+    ggplot(newpatients, aes(y=New_Patients, x=Date)) + geom_bar(stat="identity", fill="#1b9e77")
+
+![](README_files/figure-markdown_strict/unnamed-chunk-3-1.png)

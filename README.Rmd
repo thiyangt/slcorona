@@ -26,3 +26,9 @@ data(newpatients)
 head(newpatients)
 ```
 
+## Visualization
+
+```{r}
+library(ggplot2)
+ggplot(newpatients, aes(y=New_Patients, x=Date)) + geom_bar(stat="identity", fill="#1b9e77")
+````
